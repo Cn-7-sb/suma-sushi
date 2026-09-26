@@ -165,14 +165,14 @@ const MENU = [
 {cat:"molhos", name:"Wasabi (30ml)", price:3.00, desc:"A pimenta tradicional japonesa."},
 
 /* ── BEBIDAS ── */
-{cat:"bebidas", name:"Água sem gás 500ml", price:5.00},
-{cat:"bebidas", name:"Água com gás 500ml", price:6.00},
-{cat:"bebidas", name:"Guaraná Antártica 350ml", price:7.00},
-{cat:"bebidas", name:"Coca-Cola 350ml", price:8.00},
-{cat:"bebidas", name:"Coca-Cola Zero 350ml", price:8.00},
-{cat:"bebidas", name:"H2O Limão 600ml", price:12.00},
-{cat:"bebidas", name:"Coca-Cola 2L", price:18.00},
-{cat:"bebidas", name:"Heineken Long Neck", price:13.00},
+{cat:"bebidas", name:"Água sem gás 500ml", price:5.00, img:"assets/img/agua-sem-gas.png"},
+{cat:"bebidas", name:"Água com gás 500ml", price:6.00, img:"assets/img/agua-com-gas.png"},
+{cat:"bebidas", name:"Guaraná Antártica 350ml", price:7.00, img:"assets/img/guarana-antartica.png"},
+{cat:"bebidas", name:"Coca-Cola 350ml", price:8.00, img:"assets/img/coca-cola.png"},
+{cat:"bebidas", name:"Coca-Cola Zero 350ml", price:8.00, img:"assets/img/coca-cola-zero.png"},
+{cat:"bebidas", name:"H2O Limão 600ml", price:12.00, img:"assets/img/h2o-limao.png"},
+{cat:"bebidas", name:"Coca-Cola 2L", price:18.00, img:"assets/img/coca-cola-2l.png"},
+{cat:"bebidas", name:"Heineken Long Neck", price:13.00, img:"assets/img/heineken-long-neck.png"},
 ];
 
 const CATEGORIES = [
