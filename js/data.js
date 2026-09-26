@@ -25,7 +25,7 @@ const MENU = [
 {cat:"promos", name:"Combo 50 peças a R$1,00 a peça", price:50.00, tag:"Do mês", img:"assets/img/combo-50pecas.png", desc:"Uramaki salmão grelhado, skin, kani, hossomaki salmão e pepino."},
 {cat:"promos", name:"Combo 60 peças Econômica", price:69.99, tag:"Do mês", img:"assets/img/60peças-economicas.png", desc:"10 hot filadélfia, uramaki skin, salmão grelhado, kani, hossomaki salmão e pepino."},
 {cat:"promos", name:"Combo 30 peças", price:49.99, tag:"Promoção", img:"assets/img/combo-30peças.png", desc:"Selecionado da casa. Válido no Pix ou dinheiro."},
-{cat:"promos", name:"Poke Monjaro de Salmão", price:29.99, tag:"Segunda", img:"assets/img/Poke-de-Monjaro-Salmão.png", desc:"Cubos de salmão, mix de 3 folhas, abacaxi, manga, sunomono, tomate cereja, cenoura, gergelim e molho do chef."},
+{cat:"promos", name:"Poke Monjaro de Salmão", price:29.99, tag:"Segunda", img:"assets/img/Poke-Monjaro-de-Salmão.png", desc:"Cubos de salmão, mix de 3 folhas, abacaxi, manga, sunomono, tomate cereja, cenoura, gergelim e molho do chef."},
 {cat:"promos", name:"2 Temakis por R$39,99", price:39.99, tag:"Escolha o sabor", img:"assets/img/2-temakis.png", desc:"Você escolhe os dois sabores."},
 {cat:"promos", name:"Big Hot Salmão", price:35.00, tag:"Clássico", img:"assets/img/big-hot-salmão.png", desc:"Alga, arroz oriental, salmão em cubos, sunomono, molho tare e molho da casa."},
 
