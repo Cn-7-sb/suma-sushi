@@ -138,11 +138,11 @@ const MENU = [
 {cat:"porcoes", name:"Camarão GG", price:199.00, desc:"Camarões gigantes — para dividir."},
 
 /* ── POKE ── */
-{cat:"poke", name:"Poke Salmão 500g", price:35.00, img:IMG.poke, desc:"Arroz japonês, mix de folhas, sunomono, manga, abacaxi, tomate cereja, gergelim e cebolinha."},
-{cat:"poke", name:"Poke Salmão Grelhado 500g", price:35.00, img:IMG.poke, desc:"A versão quente do nosso poke premiado."},
-{cat:"poke", name:"Poke Camarão Empanado 500g", price:45.00, img:IMG.poke2, desc:"Camarão crocante sobre arroz e folhas frescas."},
-{cat:"poke", name:"Poke Camarão Grelhado 500g", price:45.00, img:IMG.poke, desc:"Camarão grelhado com mix de folhas e sunomono."},
-{cat:"poke", name:"Poke Atum", price:35.00, img:IMG.poke2, desc:"Cubos de atum, cream cheese, abacaxi, manga e cebola roxa."},
+{cat:"poke", name:"Poke Salmão 500g", price:35.00, img:"assets/img/poke-salmao.png", desc:"Arroz japonês, mix de folhas, sunomono, manga, abacaxi, tomate cereja, gergelim e cebolinha."},
+{cat:"poke", name:"Poke Salmão Grelhado 500g", price:35.00, img:"assets/img/poke-salmao-grelhado.png", desc:"A versão quente do nosso poke premiado."},
+{cat:"poke", name:"Poke Camarão Empanado 500g", price:45.00, img:"assets/img/poke-camarao-empanado.png", desc:"Camarão crocante sobre arroz e folhas frescas."},
+{{cat:"poke", name:"Poke Camarão Grelhado 500g", price:45.00, img:"assets/img/poke-camarao-grelhado.png", desc:"Camarão grelhado com mix de folhas e sunomono."},
+{cat:"poke", name:"Poke Atum", price:35.00, img:"assets/img/poke-atum.png", desc:"Cubos de atum, cream cheese, abacaxi, manga e cebola roxa."},
 
 /* ── YAKISSOBA 500g ── */
 {cat:"yakissoba", name:"Yakissoba de Legumes 500g", price:29.00, desc:"Talharim, molho da casa, brócolis, couve-flor, cenoura, acelga e repolho roxo."},
