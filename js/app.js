@@ -88,7 +88,9 @@ $$("[data-count]").forEach(el => cio.observe(el));
 
 /* ═══ MENU ═══ */
 const grid = $("#menuGrid"), tabsBox = $("#menuTabs"), searchInput = $("#menuSearch");
+
 let activeCat = "promos", query = "";
+let cart = [], mode = "delivery";
 
 tabsBox.innerHTML = CATEGORIES.map(c =>
   `<button class="tab-btn ${c.id===activeCat?"active":""}" data-cat="${c.id}" data-hover>${c.label}</button>`).join("");
