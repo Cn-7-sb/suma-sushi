@@ -154,7 +154,7 @@ const MENU = [
 
 /* ── MOLHOS ── */
 {cat:"molhos", name:"Shoyu", price:1.50, img:"assets/img/shoyu.png", desc:"O clássico acompanhamento."},
-{cat:"molhos", name:"Tare", price:3.00, img:"assets/img/tare.png", desc:"Molho adocicado para hot rolls."}
+{cat:"molhos", name:"Tare", price:3.00, img:"assets/img/tare.png", desc:"Molho adocicado para hot rolls."},
 {cat:"molhos", name:"Geleia de Pimenta", price:3.00, img:"assets/img/geleia-de-pimenta.png", desc:"Picância artesanal da casa."},
 {cat:"molhos", name:"Geleia de Maracujá", price:5.00, img:"assets/img/geleia-de-maracuja.png", desc:"Tropical e aromática."},
 {cat:"molhos", name:"Geleia de Morango", price:5.00, img:"assets/img/geleia-de-morango.png", desc:"Doçura para os especiais."},
