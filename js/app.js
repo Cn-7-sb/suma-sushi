@@ -40,7 +40,16 @@ const nav = $("#nav");
 addEventListener("scroll", () => nav.classList.toggle("scrolled", scrollY > 40), {passive:true});
 const burger = $("#burger"), navLinks = $("#navLinks");
 burger.addEventListener("click", () => {
-  burger.classList.toggle("open"); navLinks.classList.toggle("open");
+  const isOpen = navLinks.classList.contains("open");
+
+  if (isOpen) {
+    burger.classList.remove("open");
+    navLinks.classList.remove("open");
+  } else {
+    closeCart();
+    burger.classList.add("open");
+    navLinks.classList.add("open");
+  }
 });
 navLinks.addEventListener("click", e => {
   if (e.target.tagName === "A") { burger.classList.remove("open"); navLinks.classList.remove("open"); }
