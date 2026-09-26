@@ -128,7 +128,7 @@ const MENU = [
 /* ── TEPAN ── */
 {cat:"tepan", name:"Salmão Grelhado", price:90.00, img:"assets/img/salmao-grelhado.png", desc:"Salmão grelhado na manteiga, arroz, brócolis, couve-flor, cenoura, tare, cebolinha e gergelim."},
 {cat:"tepan", name:"Salmão ao Molho de Maracujá", price:100.00, img:"assets/img/salmao-ao-molho-de-maracuja.png", desc:"Salmão com molho de maracujá, legumes salteados e arroz."},
-{cat:"tepan", name:"Salmão com Camarão", price:110.00, img:"assets/img/salmao-com-camarao.png", desc:"A dupla perfeita: salmão e camarão, arroz e legumes."},
+{cat:"tepan", name:"Salmão com Camarão", price:110.00, img:"assets/img/salmao-com-camarao-nova.png", desc:"A dupla perfeita: salmão e camarão, arroz e legumes."},
   
 {cat:"porcoes", name:"Sunomono (200g)", price:15.00, desc:"Salada de pepino agridoce — o acompanhamento ideal."},
 {cat:"porcoes", name:"Bolinho de Salmão (10 un.)", price:25.00, desc:"Crocante por fora, cremoso por dentro."},
