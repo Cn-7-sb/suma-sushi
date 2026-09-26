@@ -61,7 +61,7 @@ const MENU = [
 
 /* ── HOSSOMAKI (unid.) ── */
 {cat:"hossomaki", name:"Hossomaki Salmão", price:2.50, unit:"unidade · 5 em 5", img:"assets/img/hossomaki-salmao.png", desc:"Arroz, alga e salmão fresco."},
-{cat:"hossomaki", name:"Hossomaki Skin", price:1.50, unit:"unidade · 5 em 5", img:"assets/img/hossomaki-skin.png", desc:"Arroz, alga e pele crocante."}
+{cat:"hossomaki", name:"Hossomaki Skin", price:1.50, unit:"unidade · 5 em 5", img:"assets/img/hossomaki-skin.png", desc:"Arroz, alga e pele crocante."},
 {cat:"hossomaki", name:"Hossomaki Kappamaki", price:2.00, unit:"unidade · 5 em 5", img:"assets/img/hossomaki-kappamaki.png", desc:"Arroz, alga e pepino."},
 {cat:"hossomaki", name:"Hossomaki Salad", price:2.00, unit:"unidade · 5 em 5", img:"assets/img/hossomaki-salad.png", desc:"Arroz, alga e salada de peixe."},
 {cat:"hossomaki", name:"Hossomaki Alaska", price:2.50, unit:"unidade · 5 em 5", img:"assets/img/hossomaki-alaska.png", desc:"Arroz, alga, salmão e cream cheese."},
