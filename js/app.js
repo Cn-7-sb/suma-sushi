@@ -147,6 +147,7 @@ grid.addEventListener("click", e => {
 });
 
 /* ═══ CART ═══ */
+let cart = [], mode = "delivery";
 const drawer = $("#cartDrawer"), overlay = $("#cartOverlay");
 
 function addToCart(name, delta) {
