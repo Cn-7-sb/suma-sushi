@@ -306,8 +306,27 @@ h2 em{font-style:italic;color:var(--gold-hi);font-weight:400}
 
 /* ═════════════════════ RESPONSIVE ═════════════════════ */
 @media (max-width:1080px){
-  .nav-links{position:fixed;inset:0;background:rgba(7,6,8,.97);backdrop-filter:blur(20px);flex-direction:column;align-items:center;justify-content:center;gap:32px;opacity:0;visibility:hidden;transition:all .45s var(--ease);z-index:-1}
-  .nav-links.open{opacity:1;visibility:visible}
+.nav-links{
+  position:fixed;
+  inset:0;
+  background:rgba(7,6,8,.97);
+  backdrop-filter:blur(20px);
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:32px;
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+  transition:all .45s var(--ease);
+  z-index:1;
+}
+
+.nav-links.open{
+  opacity:1;
+  visibility:visible;
+  pointer-events:auto;
+}
   .nav-links a{font-size:20px;font-family:var(--serif)}
   .burger{display:flex;z-index:5}
   .sobre-grid,.contato-grid{grid-template-columns:1fr;gap:60px}
