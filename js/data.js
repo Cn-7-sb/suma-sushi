@@ -153,14 +153,14 @@ const MENU = [
 {cat:"yakissoba", name:"Yakissoba de Salmão 500g", price:55.00, desc:"Salmão em cubos no talharim da casa."},
 
 /* ── MOLHOS ── */
-{cat:"molhos", name:"Shoyu", price:1.50, desc:"O clássico acompanhamento."},
-{cat:"molhos", name:"Tare", price:3.00, desc:"Molho adocicado para hot rolls."},
-{cat:"molhos", name:"Geleia de Pimenta", price:3.00, desc:"Picância artesanal da casa."},
-{cat:"molhos", name:"Geleia de Maracujá", price:5.00, desc:"Tropical e aromática."},
-{cat:"molhos", name:"Geleia de Morango", price:5.00, desc:"Doçura para os especiais."},
-{cat:"molhos", name:"Molho de Ostra", price:5.00, desc:"Toque umami intenso."},
-{cat:"molhos", name:"Gengibre (30ml)", price:3.00, desc:"Para limpar o paladar."},
-{cat:"molhos", name:"Wasabi (30ml)", price:3.00, desc:"A pimenta tradicional japonesa."},
+{cat:"molhos", name:"Shoyu", price:1.50, img:"assets/img/shoyu.png", desc:"O clássico acompanhamento."},
+{cat:"molhos", name:"Tare", price:3.00, img:"assets/img/tare.png", desc:"Molho adocicado para hot rolls."}
+{cat:"molhos", name:"Geleia de Pimenta", price:3.00, img:"assets/img/geleia-de-pimenta.png", desc:"Picância artesanal da casa."},
+{cat:"molhos", name:"Geleia de Maracujá", price:5.00, img:"assets/img/geleia-de-maracuja.png", desc:"Tropical e aromática."},
+{cat:"molhos", name:"Geleia de Morango", price:5.00, img:"assets/img/geleia-de-morango.png", desc:"Doçura para os especiais."},
+{cat:"molhos", name:"Molho de Ostra", price:5.00, img:"assets/img/molho-de-ostra.png", desc:"Toque umami intenso."},
+{cat:"molhos", name:"Gengibre (30ml)", price:3.00, img:"assets/img/gengibre.png", desc:"Para limpar o paladar."},
+{cat:"molhos", name:"Wasabi (30ml)", price:3.00, img:"assets/img/wasabi.png", desc:"A pimenta tradicional japonesa."},
 
 /* ── BEBIDAS ── */
 {cat:"bebidas", name:"Água sem gás 500ml", price:5.00, img:"assets/img/agua-sem-gas.png"},
