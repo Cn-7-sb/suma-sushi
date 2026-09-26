@@ -141,7 +141,7 @@ const MENU = [
 {cat:"poke", name:"Poke Salmão 500g", price:35.00, img:"assets/img/poke-salmao.png", desc:"Arroz japonês, mix de folhas, sunomono, manga, abacaxi, tomate cereja, gergelim e cebolinha."},
 {cat:"poke", name:"Poke Salmão Grelhado 500g", price:35.00, img:"assets/img/poke-salmao-grelhado.png", desc:"A versão quente do nosso poke premiado."},
 {cat:"poke", name:"Poke Camarão Empanado 500g", price:45.00, img:"assets/img/poke-camarao-empanado.png", desc:"Camarão crocante sobre arroz e folhas frescas."},
-{{cat:"poke", name:"Poke Camarão Grelhado 500g", price:45.00, img:"assets/img/poke-camarao-grelhado.png", desc:"Camarão grelhado com mix de folhas e sunomono."},
+{cat:"poke", name:"Poke Camarão Grelhado 500g", price:45.00, img:"assets/img/poke-camarao-grelhado.png", desc:"Camarão grelhado com mix de folhas e sunomono."},
 {cat:"poke", name:"Poke Atum", price:35.00, img:"assets/img/poke-atum.png", desc:"Cubos de atum, cream cheese, abacaxi, manga e cebola roxa."},
 
 /* ── YAKISSOBA 500g ── */
