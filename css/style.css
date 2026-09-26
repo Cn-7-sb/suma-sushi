@@ -328,7 +328,7 @@ h2 em{font-style:italic;color:var(--gold-hi);font-weight:400}
   pointer-events:auto;
 }
   .nav-links a{font-size:20px;font-family:var(--serif)}
-  .burger{display:flex;z-index:5}
+  .burger{display:flex;z-index:2}
   .sobre-grid,.contato-grid{grid-template-columns:1fr;gap:60px}
   .exp-grid{grid-template-columns:1fr}
   .gal-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:200px}
