@@ -126,11 +126,10 @@ const MENU = [
 {cat:"carpaccio", name:"Atum ao Molho da Casa (12 un.)", price:49.00, img:IMG.sashimi, desc:"Filés de atum com o molho secreto Su Ma."},
 
 /* ── TEPAN ── */
-{cat:"tepan", name:"Salmão Grelhado", price:90.00, img:"assets/img/salmao-grelhado.png", desc:"Salmão grelhado na manteiga, arroz, brócolis, couve-flor, cenoura, {cat:"tepan", name:"Salmão ao Molho de Maracujá", price:tare, cebolinha e gergelim."},
+{cat:"tepan", name:"Salmão Grelhado", price:90.00, img:"assets/img/salmao-grelhado.png", desc:"Salmão grelhado na manteiga, arroz, brócolis, couve-flor, cenoura, tare, cebolinha e gergelim."},
 {cat:"tepan", name:"Salmão ao Molho de Maracujá", price:100.00, img:"assets/img/salmao-ao-molho-de-maracuja.png", desc:"Salmão com molho de maracujá, legumes salteados e arroz."},
 {cat:"tepan", name:"Salmão com Camarão", price:110.00, img:"assets/img/salmao-com-camarao.png", desc:"A dupla perfeita: salmão e camarão, arroz e legumes."},
-/* ── PORÇÕES ── */
-{cat:"porcoes", name:"Ceviche (200g)", price:30.00, img:IMG.poke, desc:"Peixe branco marinado no limão com cebola roxa e coentro."},
+  
 {cat:"porcoes", name:"Sunomono (200g)", price:15.00, desc:"Salada de pepino agridoce — o acompanhamento ideal."},
 {cat:"porcoes", name:"Bolinho de Salmão (10 un.)", price:25.00, desc:"Crocante por fora, cremoso por dentro."},
 {cat:"porcoes", name:"Suzukuri (12 peças)", price:60.00, img:IMG.sashimi, desc:"Finas lâminas de peixe com molho ponzu."},
