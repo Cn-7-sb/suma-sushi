@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SU MA SUSHI — Alta Culinária Japonesa · Balneário Camboriú</title>
+<meta name="description" content="Su Ma Sushi — experiência gastronômica japonesa em Balneário Camboriú. Sushi fresco, combos exclusivos e pedidos direto pelo site.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Manrope:wght@300;400;500;600;700;800&family=Noto+Serif+JP:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ═══════════ PRELOADER ═══════════ -->
+<div class="preloader" id="preloader">
+  <div class="preloader-inner">
+    <span class="preloader-kanji">壽</span>
+    <span class="preloader-word">SU&nbsp;MA</span>
+    <div class="preloader-line"><span id="preloaderBar"></span></div>
+  </div>
+</div>
+
+<!-- ═══════════ CURSOR ═══════════ -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ═══════════ NAV ═══════════ -->
+<header class="nav" id="nav">
+  <a href="#hero" class="nav-logo" data-hover>
+    <span class="logo-kanji">壽</span>
+    <span class="logo-text">SU MA<em>SUSHI</em></span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#sobre" data-hover>Sobre</a>
+    <a href="#experiencia" data-hover>Experiência</a>
+    <a href="#cardapio" data-hover>Cardápio</a>
+    <a href="#galeria" data-hover>Galeria</a>
+    <a href="#avaliacoes" data-hover>Avaliações</a>
+    <a href="#contato" data-hover>Contato</a>
+  </nav>
+  <div class="nav-actions">
+    <button class="cart-btn" id="cartBtn" data-hover aria-label="Abrir pedido">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 7h12l1.5 13.5a1 1 0 0 1-1 1.1H5.5a1 1 0 0 1-1-1.1L6 7z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></svg>
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+    <button class="burger" id="burger" data-hover aria-label="Menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero" id="hero">
+  <div class="hero-bg" id="heroBg"><img src="assets/img/hero_bg_4k.jpg" alt=""></div>
+  <div class="hero-grain"></div>
+  <div class="hero-kanji hero-kanji-1">寿司</div>
+  <div class="hero-kanji hero-kanji-2">匠</div>
+  <div class="hero-content">
+    <p class="hero-eyebrow reveal-line"><span>Balneário Camboriú · desde a arte do sushi</span></p>
+    <h1 class="hero-title">
+      <span class="ht-line"><span>A arte do</span></span>
+      <span class="ht-line ht-accent"><span><em>sushi</em> elevada</span></span>
+      <span class="ht-line"><span>à perfeição</span></span>
+    </h1>
+    <p class="hero-sub reveal-line"><span>Peças autorais, salmão de altíssima qualidade e uma experiência que desperta os sentidos — nota 4,8 com mais de 200 avaliações.</span></p>
+    <div class="hero-cta">
+      <a href="#cardapio" class="btn btn-gold" data-hover><span>Montar meu pedido</span><i>→</i></a>
+      <a href="#experiencia" class="btn btn-ghost" data-hover><span>A experiência</span></a>
+    </div>
+  </div>
+  <div class="hero-side">
+    <span>AV. BRASIL, 2603 — CENTRO</span>
+  </div>
+  <div class="hero-scroll" data-hover><span></span>role para descobrir</div>
+  <div class="hero-open" id="openStatus"><span class="pulse-dot"></span><span id="openStatusText">aberto hoje · 19h</span></div>
+</section>
+
+<!-- ═══════════ MARQUEE ═══════════ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Salmão fresco </span><i>✦</i><span>Combinados autorais </span><i>✦</i><span>Temakis quentes </span><i>✦</i><span>Pokes premiados </span><i>✦</i><span>Atendimento impecável </span><i>✦</i>
+    <span>Salmão fresco </span><i>✦</i><span>Combinados autorais </span><i>✦</i><span>Temakis quentes </span><i>✦</i><span>Pokes premiados </span><i>✦</i><span>Atendimento impecável </span><i>✦</i>
+  </div>
+</div>
+
+<!-- ═══════════ SOBRE ═══════════ -->
+<section class="sobre" id="sobre">
+  <div class="sobre-grid">
+    <div class="sobre-media" data-reveal>
+      <div class="sobre-frame">
+        <img src="assets/img/10_Salmon_sushi_nigiri_on_a_small_dark.png" alt="Nigiri de salmão Su Ma">
+        <div class="sobre-frame-glow"></div>
+      </div>
+      <div class="sobre-seal"><span>壽</span><small>selo de<br>excelência</small></div>
+    </div>
+    <div class="sobre-text">
+      <p class="eyebrow" data-reveal>— a casa</p>
+      <h2 data-reveal>Onde cada peça é uma <em>pequena obra de arte</em></h2>
+      <p data-reveal>No coração de Balneário Camboriú, o Su Ma Sushi nasceu de uma obsessão: transformar o sushi em experiência. Peças montadas à mão, molhos autorais, cortes precisos e uma curadoria de sabores que você não encontra em nenhum outro lugar.</p>
+      <p data-reveal>Aqui, o clássico encontra o autoral — do tradicional hossomaki ao Joe Ebitem com camarão gigante e geleia de pimenta.</p>
+      <div class="stats" data-reveal>
+        <div class="stat"><strong data-count="4.8" data-decimals="1">0</strong><small>nota no Google</small></div>
+        <div class="stat"><strong data-count="204">0</strong><small>avaliações reais</small></div>
+        <div class="stat"><strong data-count="100">0</strong><small>peças exclusivas</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ EXPERIÊNCIA ═══════════ -->
+<section class="experiencia" id="experiencia">
+  <div class="exp-texture"><img src="assets/img/texture_silk_4k.jpg" alt=""></div>
+  <p class="eyebrow center" data-reveal>— a experiência</p>
+  <h2 class="center" data-reveal>Três momentos, <em>um só ritual</em></h2>
+  <div class="exp-grid">
+    <article class="exp-card" data-reveal data-hover>
+      <span class="exp-num">01</span>
+      <div class="exp-icon">鮮</div>
+      <h3>Frescura absoluta</h3>
+      <p>Salmão selecionado diariamente, arroz oriental temperado na medida exata e alga crocante. Frescor que se sente no primeiro corte.</p>
+      <div class="exp-card-line"></div>
+    </article>
+    <article class="exp-card" data-reveal data-hover>
+      <span class="exp-num">02</span>
+      <div class="exp-icon">匠</div>
+      <h3>Técnica artesanal</h3>
+      <p>Cada peça é montada por quem entende de tempo, pressão e harmonia. Do nigiri clássico ao Michelângelo com cebola caramelizada.</p>
+      <div class="exp-card-line"></div>
+    </article>
+    <article class="exp-card" data-reveal data-hover>
+      <span class="exp-num">03</span>
+      <div class="exp-icon">味</div>
+      <h3>Sabor autoral</h3>
+      <p>Molhos da casa, geleias artesanais de pimenta e maracujá, raspas de limão siciliano e azeite trufado. Sabor de assinatura Su Ma.</p>
+      <div class="exp-card-line"></div>
+    </article>
+  </div>
+</section>
+
+<!-- ═══════════ CARDÁPIO / MENU INTERATIVO ═══════════ -->
+<section class="cardapio" id="cardapio">
+  <p class="eyebrow center" data-reveal>— o cardápio</p>
+  <h2 class="center" data-reveal>Escolha, monte seu pedido <em>e receba quentinho</em></h2>
+  <p class="center cardapio-note" data-reveal>Adicione itens à bandeja e finalize pelo WhatsApp — direto com a nossa equipe.</p>
+
+  <div class="menu-toolbar" data-reveal>
+    <div class="menu-tabs" id="menuTabs"></div>
+    <div class="menu-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input type="text" id="menuSearch" placeholder="Buscar no cardápio…">
+    </div>
+  </div>
+
+  <div class="menu-grid" id="menuGrid"></div>
+</section>
+
+<!-- ═══════════ GALERIA ═══════════ -->
+<section class="galeria" id="galeria">
+  <p class="eyebrow center" data-reveal>— galeria</p>
+  <h2 class="center" data-reveal>Feito para ser <em>lembrado</em></h2>
+  <div class="gal-grid">
+    <figure class="gal-item g1" data-reveal data-hover><img src="assets/img/3_Fresh_Sashimi_Platter_with_Salmon.png" alt="Sashimis de salmão e atum"><figcaption>Sashimis selecionados</figcaption></figure>
+    <figure class="gal-item g2" data-reveal data-hover><img src="assets/img/8_Philadelphia_Roll_3_Different_Styles.png" alt="Combinados de uramaki"><figcaption>Combinados autorais</figcaption></figure>
+    <figure class="gal-item g3" data-reveal data-hover><img src="assets/img/7_10_100_Temaki_Sushi_Stock_Photos.png" alt="Temakis"><figcaption>Temakis tradicionais</figcaption></figure>
+    <figure class="gal-item g4" data-reveal data-hover><img src="assets/img/5_Salmon_Poke_Bowl.png" alt="Poke de salmão"><figcaption>Pokes premiados</figcaption></figure>
+    <figure class="gal-item g5" data-reveal data-hover><img src="assets/img/2_Japanese_Sushi_Rolls_Philadelphia.png" alt="Uramaki Filadélfia"><figcaption>Uramaki Filadélfia</figcaption></figure>
+  </div>
+</section>
+
+<!-- lightbox -->
+<div class="lightbox" id="lightbox"><img id="lightboxImg" src="" alt=""><button class="lightbox-close" id="lightboxClose" data-hover>✕</button></div>
+
+<!-- ═══════════ AVALIAÇÕES ═══════════ -->
+<section class="avaliacoes" id="avaliacoes">
+  <div class="exp-texture"><img src="assets/img/texture_silk_4k.jpg" alt=""></div>
+  <p class="eyebrow center" data-reveal>— quem viveu, conta</p>
+  <h2 class="center" data-reveal>Palavra de quem <em>já se apaixonou</em></h2>
+  <div class="review-stage" data-reveal>
+    <button class="review-arrow prev" id="revPrev" data-hover>←</button>
+    <div class="review-viewport"><div class="review-track" id="reviewTrack"></div></div>
+    <button class="review-arrow next" id="revNext" data-hover>→</button>
+  </div>
+  <div class="review-dots" id="reviewDots"></div>
+</section>
+
+<!-- ═══════════ HORÁRIOS + CONTATO ═══════════ -->
+<section class="contato" id="contato">
+  <div class="contato-grid">
+    <div class="contato-info">
+      <p class="eyebrow" data-reveal>— visite-nos</p>
+      <h2 data-reveal>Reserve seu momento <em>à mesa</em></h2>
+      <div class="info-block" data-reveal>
+        <h4>Endereço</h4>
+        <p>Av. Brasil, 2603 — Centro<br>Balneário Camboriú · SC · 88330-058</p>
+        <a class="link-line" data-hover href="https://www.google.com/maps/search/?api=1&query=Av.+Brasil,+2603+-+Centro,+Balne%C3%A1rio+Cambori%C3%BA+-+SC" target="_blank" rel="noopener">Traçar rota →</a>
+      </div>
+      <div class="info-block" data-reveal>
+        <h4>Reservas & pedidos</h4>
+        <p><a data-hover href="tel:+5547992736707">(47) 99273-6707</a></p>
+        <a class="link-line" data-hover href="https://wa.me/5547992736707?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20no%20Su%20Ma%20Sushi." target="_blank" rel="noopener">Chamar no WhatsApp →</a>
+      </div>
+      <div class="info-block" data-reveal>
+        <h4>Perfil</h4>
+        <p>Casual · Aconchegante · Bom para grupos e crianças<br>R$ 60–80 por pessoa</p>
+      </div>
+    </div>
+    <div class="contato-hours" data-reveal>
+      <div class="hours-card">
+        <span class="hours-kanji">時</span>
+        <h3>Horários</h3>
+        <ul id="hoursList">
+          <li data-day="1"><span>Segunda-feira</span><span>19h — 23h</span></li>
+          <li data-day="2"><span>Terça-feira</span><span>19h — 23h</span></li>
+          <li data-day="3"><span>Quarta-feira</span><span>19h — 23h</span></li>
+          <li data-day="4"><span>Quinta-feira</span><span>19h — 23h</span></li>
+          <li data-day="5"><span>Sexta-feira</span><span>19h — 23h30</span></li>
+          <li data-day="6"><span>Sábado</span><span>19h — 23h30</span></li>
+          <li data-day="0"><span>Domingo</span><span>19h — 23h</span></li>
+        </ul>
+        <div class="hours-note"><span class="pulse-dot"></span><span id="hoursNote">Aberto hoje a partir das 19h</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <div class="footer-top">
+    <span class="footer-kanji">壽司</span>
+    <span class="footer-big">SU MA SUSHI</span>
+  </div>
+  <div class="footer-mid">
+    <span>Av. Brasil, 2603 — Centro, Balneário Camboriú · SC</span>
+    <span>(47) 99273-6707</span>
+    <span>Nota 4,8 ★ · 204 avaliações Google</span>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Su Ma Sushi — Arte, frescor & sabor.</span>
+  </div>
+</footer>
+
+<!-- ═══════════ CART DRAWER ═══════════ -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Seu pedido">
+  <div class="cart-head">
+    <div><span class="cart-head-kanji">注</span><h3>Sua bandeja</h3></div>
+    <button class="cart-close" id="cartClose" data-hover>✕</button>
+  </div>
+  <div class="cart-mode">
+    <button class="mode-btn active" id="modeDelivery" data-hover>Entrega</button>
+    <button class="mode-btn" id="modePickup" data-hover>Retirada</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-empty" id="cartEmpty">
+    <span>空</span>
+    <p>Sua bandeja está vazia.<br>Escolha algo delicioso no cardápio.</p>
+    <button class="btn btn-gold" id="cartEmptyBtn" data-hover><span>Ver cardápio</span></button>
+  </div>
+  <div class="cart-foot" id="cartFoot">
+    <div class="cart-row"><span>Subtotal</span><span id="cartSubtotal">R$ 0,00</span></div>
+    <div class="cart-row" id="deliveryRow"><span>Entrega</span><span>a combinar</span></div>
+    <div class="cart-row total"><span>Total</span><span id="cartTotal">R$ 0,00</span></div>
+    <button class="btn btn-gold btn-checkout" id="checkoutBtn" data-hover><span>Finalizar pelo WhatsApp</span><i>↗</i></button>
+    <small class="cart-hint">Você será redirecionado ao WhatsApp com o pedido pronto.</small>
+  </div>
+</aside>
+
+<!-- toast -->
+<div class="toast" id="toast"><span>✓</span><p id="toastMsg">Adicionado à bandeja</p></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
