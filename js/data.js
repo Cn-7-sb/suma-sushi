@@ -68,13 +68,13 @@ const MENU = [
 
 /* ── NIGUIRI (unid.) ── */
 {cat:"niguiri", name:"Niguiri Salmão", price:3.00, unit:"unidade", img:IMG.nigiri, desc:"Fatia de salmão sobre arroz oriental."},
-{cat:"niguiri", name:"Niguiri Skin", price:2.00, unit:"unidade", desc:"Pele de salmão crocante sobre arroz."},
-{cat:"niguiri", name:"Niguiri Salmão Massaricado", price:3.00, unit:"unidade", desc:"Salmão levemente maçaricado sobre arroz."},
-{cat:"niguiri", name:"Niguiri SU MA", price:4.00, unit:"unidade", tag:"Da casa", desc:"A assinatura Su Ma em forma de niguiri."},
-{cat:"niguiri", name:"Niguiri Gorgonzola", price:4.00, unit:"unidade", desc:"Salmão com toque de gorgonzola."},
-{cat:"niguiri", name:"Niguiri Salmão Cream Cheese", price:4.00, unit:"unidade", desc:"Salmão e cream cheese cremoso."},
-{cat:"niguiri", name:"Niguiri Brie com Geleia de Morango", price:6.00, unit:"unidade", tag:"Especial", desc:"Salmão massaricado, queijo brie e geleia de morango."},
-{cat:"niguiri", name:"Niguiri Rarasu", price:6.00, unit:"unidade", tag:"Exclusivo", desc:"Lâmina de salmão gordo, flor de sal, limão siciliano e azeite trufado."},
+{cat:"niguiri", name:"Niguiri Skin", price:2.00, unit:"unidade", img:"assets/img/niguiri-skin.png", desc:"Pele de salmão crocante sobre arroz."},
+{cat:"niguiri", name:"Niguiri Salmão Massaricado", price:3.00, unit:"unidade", img:"assets/img/niguiri-salmao-massaricado.png", desc:"Salmão levemente maçaricado sobre arroz."},
+{cat:"niguiri", name:"Niguiri SU MA", price:4.00, unit:"unidade", img:"assets/img/niguiri-su-ma.png", tag:"Da casa", desc:"A assinatura Su Ma em forma de niguiri."},
+{cat:"niguiri", name:"Niguiri Gorgonzola", price:4.00, unit:"unidade", img:"assets/img/niguiri-gorgonzola.png", desc:"Salmão com toque de gorgonzola."},
+{cat:"niguiri", name:"Niguiri Salmão Cream Cheese", price:4.00, unit:"unidade", img:"assets/img/niguiri-salmao-cream-cheese.png", desc:"Salmão e cream cheese cremoso."},
+{cat:"niguiri", name:"Niguiri Brie com Geleia de Morango", price:6.00, unit:"unidade", img:"assets/img/niguiri-brie-com-geleia-de-morango.png", tag:"Especial", desc:"Salmão massaricado, queijo brie e geleia de morango."},
+{cat:"niguiri", name:"Niguiri Rarasu", price:6.00, unit:"unidade", img:"assets/img/niguiri-rarasu.png", tag:"Exclusivo", desc:"Lâmina de salmão gordo, flor de sal, limão siciliano e azeite trufado."},
 
 /* ── JOE (unid.) ── */
 {cat:"joe", name:"Joe Salmão", price:3.00, unit:"unidade", desc:"Arroz oriental enrolado em lâmina de salmão."},
