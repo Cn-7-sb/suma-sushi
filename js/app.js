@@ -263,23 +263,7 @@ $("#checkoutBtn").addEventListener("click", () => {
 let toastTimer;
 
 function toast(msg) {
-  const t = $("#toast");
-  const msgEl = $("#toastMsg");
-
-  if (!t || !msgEl) return;
-
-  clearTimeout(toastTimer);
-
-  // atualiza a mensagem
-  msgEl.textContent = msg;
-
-  // mostra
-  t.classList.add("show");
-
-  // esconde completamente depois de 2,4 segundos
-  toastTimer = setTimeout(() => {
-    t.classList.remove("show");
-  }, 2400);
+  console.log("TOAST CHAMADO:", msg);
 }
 
 /* ═══ REVIEWS ═══ */
