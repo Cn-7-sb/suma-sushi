@@ -37,22 +37,35 @@ const slug = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,""
 
 /* ═══ NAV ═══ */
 const nav = $("#nav");
-addEventListener("scroll", () => nav.classList.toggle("scrolled", scrollY > 40), {passive:true});
-const burger = $("#burger"), navLinks = $("#navLinks");
+
+addEventListener("scroll", () => {
+  nav.classList.toggle("scrolled", scrollY > 40);
+}, {passive:true});
+
+const burger = $("#burger");
+const navLinks = $("#navLinks");
+
 burger.addEventListener("click", () => {
   const isOpen = navLinks.classList.contains("open");
 
   if (isOpen) {
     burger.classList.remove("open");
     navLinks.classList.remove("open");
+    document.body.classList.remove("menu-open");
   } else {
     closeCart();
     burger.classList.add("open");
     navLinks.classList.add("open");
+    document.body.classList.add("menu-open");
   }
 });
+
 navLinks.addEventListener("click", e => {
-  if (e.target.tagName === "A") { burger.classList.remove("open"); navLinks.classList.remove("open"); }
+  if (e.target.tagName === "A") {
+    burger.classList.remove("open");
+    navLinks.classList.remove("open");
+    document.body.classList.remove("menu-open");
+  }
 });
 
 /* ═══ REVEAL ═══ */
