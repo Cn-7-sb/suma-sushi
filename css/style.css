@@ -474,6 +474,9 @@ h2 em{font-style:italic;color:var(--gold-hi);font-weight:400}
   letter-spacing:.10em !important;
   white-space:nowrap !important;
 
+  color:#2a2112 !important;
+  text-shadow:none !important;
+
   border-radius:999px !important;
 }
 
@@ -484,5 +487,6 @@ h2 em{font-style:italic;color:var(--gold-hi);font-weight:400}
   line-height:1 !important;
   letter-spacing:.10em !important;
   white-space:nowrap !important;
+  color:#2a2112 !important;
+  text-shadow:none !important;
 }
-
