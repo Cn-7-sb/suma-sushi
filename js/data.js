@@ -22,7 +22,7 @@ const MENU = [
 {cat:"promos", name:"60 peças + 1 Temaki Hot", price:119.00, tag:"Domingou!", img:"assets/img/60peças-1temaki-hot.png", desc:"O combinado da família, com temaki hot incluso."},
 {cat:"promos", name:"Combo 20 Hot Variados", price:49.00, tag:"Do mês", img:"assets/img/20-hots-variados.png", desc:"20 hots variados — a promoção mais pedida do mês."},
 {cat:"promos", name:"Barca Natalina 45 peças", price:149.00, tag:"Especial", img:"assets/img/barca-natalina-45peças.png", desc:"Barca festiva com seleção da casa."},
-{cat:"promos", name:"Combo 50 peças a R$1,00 a peça", price:50.00, tag:"Do mês", img:"assets/img/combo-50pecas.png", desc:"Uramaki salmão grelhado, skin, kani, hossomaki salmão e pepino."},
+{cat:"promos", name:"Combo 50 peças a R$1,00 a peça", price:50.00, tag:"Do mês", img:"assets/img/combo-50-pecas.png", desc:"Uramaki salmão grelhado, skin, kani, hossomaki salmão e pepino."},
 {cat:"promos", name:"Combo 60 peças Econômica", price:69.99, tag:"Do mês", img:"assets/img/60peças-economicas.png", desc:"10 hot filadélfia, uramaki skin, salmão grelhado, kani, hossomaki salmão e pepino."},
 {cat:"promos", name:"Combo 30 peças", price:49.99, tag:"Promoção", img:"assets/img/combo-30peças.png", desc:"Selecionado da casa. Válido no Pix ou dinheiro."},
 {cat:"promos", name:"Poke Monjaro de Salmão", price:29.99, tag:"Segunda", img:"assets/img/Poke-Monjaro-de-Salmão.png", desc:"Cubos de salmão, mix de 3 folhas, abacaxi, manga, sunomono, tomate cereja, cenoura, gergelim e molho do chef."},
