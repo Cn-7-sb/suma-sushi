@@ -48,16 +48,16 @@ const MENU = [
 {cat:"combos", name:"Combo Atum 35 peças", price:89.00, tag:"Novidade", img:IMG.sashimi, desc:"Joe atum · uramaki atum · hossomaki salmão e atum · sashimi salmão e atum · niguiri salmão · joe brie · uramaki passion."},
 
 /* ── TEMAKI ── */
-{cat:"temaki", name:"Temaki Filadélfia", price:35.00, img:IMG.temaki, desc:"Alga, arroz, cream cheese, salmão e finalização com cebolinha."},
-{cat:"temaki", name:"Temaki Hot Filadélfia", price:35.00, img:IMG.temaki, desc:"Alga, arroz, cream cheese, salmão, empanado na panko e frito."},
-{cat:"temaki", name:"Temaki Salmão", price:35.00, img:IMG.temaki, desc:"Alga, arroz e salmão fresco."},
-{cat:"temaki", name:"Temaki Salmão/Skin", price:35.00, img:IMG.temaki, desc:"Alga, arroz, salmão e pele do peixe crocante."},
+{cat:"temaki", name:"Temaki Filadélfia", price:35.00, img:"assets/img/temaki-filadelfia.png", desc:"Alga, arroz, cream cheese, salmão e finalização com cebolinha."},
+{cat:"temaki", name:"Temaki Hot Filadélfia", price:35.00, img:"assets/img/temaki-hot-filadelfia.png", desc:"Alga, arroz, cream cheese, salmão, empanado na panko e frito."},
+{cat:"temaki", name:"Temaki Salmão", price:35.00, img:"assets/img/temaki-salmao.png", desc:"Alga, arroz e salmão fresco."},
+{cat:"temaki", name:"Temaki Salmão/Skin", price:35.00, img:"assets/img/temaki-salmao-skin.png", desc:"Alga, arroz, salmão e pele do peixe crocante."},
 {cat:"temaki", name:"Temaki Alaska", price:35.00, img:IMG.temaki2, desc:"Alga, arroz, cream cheese, salmão e pepino."},
-{cat:"temaki", name:"Temaki Camarão", price:50.00, img:IMG.temaki, desc:"Recheio generoso de camarão."},
-{cat:"temaki", name:"Temaki Sem Arroz", price:49.00, img:IMG.temaki, desc:"Alga, salmão e finalização com cebolinha."},
-{cat:"temaki", name:"Temaki Hot Chocolate Branco", price:35.00, tag:"Sobremesa", desc:"Arroz doce, alga, cream cheese, chocolate branco e M&Ms."},
-{cat:"temaki", name:"Temaki Hot Chocolate Preto", price:35.00, tag:"Sobremesa", desc:"Arroz doce, alga, cream cheese, chocolate preto e M&Ms."},
-{cat:"temaki", name:"Temaki Hot Chocolate Misto", price:35.00, tag:"Sobremesa", desc:"Arroz doce, alga, cream cheese, chocolate preto e branco e M&Ms."},
+{cat:"temaki", name:"Temaki Camarão", price:50.00, img:"assets/img/temaki-camarao.png", desc:"Recheio generoso de camarão."},
+{cat:"temaki", name:"Temaki Sem Arroz", price:49.00, img:"assets/img/temaki-sem-arroz.png", desc:"Alga, salmão e finalização com cebolinha."},
+{cat:"temaki", name:"Temaki Hot Chocolate Branco", price:35.00, img:"assets/img/temaki-hot-chocolate-branco.png", tag:"Sobremesa", desc:"Arroz doce, alga, cream cheese, chocolate branco e M&Ms."},
+{cat:"temaki", name:"Temaki Hot Chocolate Preto", price:35.00, img:"assets/img/temaki-hot-chocolate-preto.png", tag:"Sobremesa", desc:"Arroz doce, alga, cream cheese, chocolate preto e M&Ms."},
+{cat:"temaki", name:"Temaki Hot Chocolate Misto", price:35.00, img:"assets/img/temaki-hot-chocolate-misto.png", tag:"Sobremesa", desc:"Arroz doce, alga, cream cheese, chocolate preto e branco e M&Ms."},,
 
 /* ── HOSSOMAKI (unid.) ── */
 {cat:"hossomaki", name:"Hossomaki Salmão", price:2.50, unit:"unidade · 5 em 5", img:"assets/img/hossomaki-salmao.png", desc:"Arroz, alga e salmão fresco."},
