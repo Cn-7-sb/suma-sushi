@@ -471,8 +471,18 @@ h2 em{font-style:italic;color:var(--gold-hi);font-weight:400}
 
   font-size:11px !important;
   line-height:1 !important;
-  letter-spacing:.12em !important;
+  letter-spacing:.10em !important;
   white-space:nowrap !important;
 
   border-radius:999px !important;
 }
+
+/* força o texto dentro do botão */
+.cart-empty .btn *,
+.cart-empty a.btn *{
+  font-size:11px !important;
+  line-height:1 !important;
+  letter-spacing:.10em !important;
+  white-space:nowrap !important;
+}
+
