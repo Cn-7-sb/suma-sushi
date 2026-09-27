@@ -129,13 +129,14 @@ const MENU = [
 {cat:"tepan", name:"Salmão Grelhado", price:90.00, img:"assets/img/salmao-grelhado.png", desc:"Salmão grelhado na manteiga, arroz, brócolis, couve-flor, cenoura, tare, cebolinha e gergelim."},
 {cat:"tepan", name:"Salmão ao Molho de Maracujá", price:100.00, img:"assets/img/salmao-ao-molho-de-maracuja.png", desc:"Salmão com molho de maracujá, legumes salteados e arroz."},
 {cat:"tepan", name:"Salmão com Camarão", price:110.00, img:"assets/img/salmao-com-camarao-nova.png", desc:"A dupla perfeita: salmão e camarão, arroz e legumes."},
-  
-{cat:"porcoes", name:"Sunomono (200g)", price:15.00, desc:"Salada de pepino agridoce — o acompanhamento ideal."},
-{cat:"porcoes", name:"Bolinho de Salmão (10 un.)", price:25.00, desc:"Crocante por fora, cremoso por dentro."},
-{cat:"porcoes", name:"Suzukuri (12 peças)", price:60.00, img:IMG.sashimi, desc:"Finas lâminas de peixe com molho ponzu."},
-{cat:"porcoes", name:"Tartar de Salmão", price:30.00, img:IMG.poke2, desc:"Cubos de salmão com toques cítricos."},
-{cat:"porcoes", name:"Camarão Médio (400g)", price:129.00, desc:"Porção generosa de camarão."},
-{cat:"porcoes", name:"Camarão GG", price:199.00, desc:"Camarões gigantes — para dividir."},
+
+/* ── PORÇÕES ── */
+{cat:"porcoes", name:"Sunomono (200g)", price:15.00, img:"assets/img/sunomono.png", desc:"Salada de pepino agridoce — o acompanhamento ideal."},
+{cat:"porcoes", name:"Bolinho de Salmão (10 un.)", price:25.00, img:"assets/img/bolinho-de-salmao.png", desc:"Crocante por fora, cremoso por dentro."},
+{cat:"porcoes", name:"Suzukuri (12 peças)", price:60.00, img:"assets/img/suzukuri-de-salmao.png", desc:"Finas lâminas de peixe com molho ponzu."},
+{cat:"porcoes", name:"Tartar de Salmão", price:30.00, img:"assets/img/tartar-de-salmao.png", desc:"Cubos de salmão com toques cítricos."},
+{cat:"porcoes", name:"Camarão Médio (400g)", price:129.00, img:"assets/img/camarao-medio.png", desc:"Porção generosa de camarão."},
+{cat:"porcoes", name:"Camarão GG", price:199.00, img:"assets/img/camarao-gg.png", desc:"Camarões gigantes — para dividir."},
 
 /* ── POKE ── */
 {cat:"poke", name:"Poke Salmão 500g", price:35.00, img:"assets/img/poke-salmao.png", desc:"Arroz japonês, mix de folhas, sunomono, manga, abacaxi, tomate cereja, gergelim e cebolinha."},
