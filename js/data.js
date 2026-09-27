@@ -92,16 +92,16 @@ const MENU = [
 
 /* ── URAMAKI (unid.) ── */
 {cat:"uramaki", name:"Uramaki Filadélfia", price:3.00, unit:"unidade · 5 em 5", img:IMG.uramaki, desc:"O clássico com gergelim torrado."},
-{cat:"uramaki", name:"Uramaki Salmão", price:3.00, unit:"unidade · 5 em 5", desc:"Salmão fresco e arroz oriental."},
-{cat:"uramaki", name:"Uramaki Atum", price:3.00, unit:"unidade · 5 em 5", desc:"Arroz, gergelim torrado, atum e alga."},
-{cat:"uramaki", name:"Uramaki Skin", price:2.00, unit:"unidade · 5 em 5", desc:"Pele crocante e arroz oriental."},
-{cat:"uramaki", name:"Uramaki Salad", price:2.00, unit:"unidade · 5 em 5", desc:"Salada de peixe e arroz oriental."},
-{cat:"uramaki", name:"Uramaki Alaska", price:4.00, unit:"unidade · 5 em 5", desc:"Salmão, cream cheese e pepino."},
-{cat:"uramaki", name:"Uramaki Especial", price:4.00, unit:"unidade · 5 em 5", tag:"Da casa", desc:"A combinação especial do Su Ma."},
-{cat:"uramaki", name:"Uramaki Ebitem", price:5.00, unit:"unidade · 5 em 5", desc:"Camarão empanado crocante."},
-{cat:"uramaki", name:"Uramaki Gourmet", price:6.00, unit:"unidade · 4 em 4", tag:"Exclusivo", desc:"Salmão empanado, cream cheese, lâmina de salmão, geleia de pimenta e gergelim."},
-{cat:"uramaki", name:"Uramaki Camarão Gourmet", price:6.00, unit:"unidade · 4 em 4", tag:"Exclusivo", desc:"Lâmina de salmão, cream cheese, camarão empanado, molho de ostra e cebolinha."},
-{cat:"uramaki", name:"Michelângelo", price:6.00, unit:"unidade · 4 em 4", tag:"Exclusivo", desc:"Salmão, gorgonzola, lâmina de salmão massaricado e cebola caramelizada."},
+{cat:"uramaki", name:"Uramaki Salmão", price:3.00, unit:"unidade · 5 em 5", img:"assets/img/uramaki-salmao.png", desc:"Salmão fresco e arroz oriental."},
+{cat:"uramaki", name:"Uramaki Atum", price:3.00, unit:"unidade · 5 em 5", img:"assets/img/uramaki-atum.png", desc:"Arroz, gergelim torrado, atum e alga."},
+{cat:"uramaki", name:"Uramaki Skin", price:2.00, unit:"unidade · 5 em 5", img:"assets/img/uramaki-skin.png", desc:"Pele crocante e arroz oriental."},
+{cat:"uramaki", name:"Uramaki Salad", price:2.00, unit:"unidade · 5 em 5", img:"assets/img/uramaki-salad.png", desc:"Salada de peixe e arroz oriental."},
+{cat:"uramaki", name:"Uramaki Alaska", price:4.00, unit:"unidade · 5 em 5", img:"assets/img/uramaki-alaska.png", desc:"Salmão, cream cheese e pepino."},
+{cat:"uramaki", name:"Uramaki Especial", price:4.00, unit:"unidade · 5 em 5", img:"assets/img/uramaki-especial.png", tag:"Da casa", desc:"A combinação especial do Su Ma."},
+{cat:"uramaki", name:"Uramaki Ebitem", price:5.00, unit:"unidade · 5 em 5", img:"assets/img/uramaki-ebitem.png", desc:"Camarão empanado crocante."},
+{cat:"uramaki", name:"Uramaki Gourmet", price:6.00, unit:"unidade · 4 em 4", img:"assets/img/uramaki-gourmet.png", tag:"Exclusivo", desc:"Salmão empanado, cream cheese, lâmina de salmão, geleia de pimenta e gergelim."},
+{cat:"uramaki", name:"Uramaki Camarão Gourmet", price:6.00, unit:"unidade · 4 em 4", img:"assets/img/uramaki-camarao-gourmet.png", tag:"Exclusivo", desc:"Lâmina de salmão, cream cheese, camarão empanado, molho de ostra e cebolinha."},
+{cat:"uramaki", name:"Michelângelo", price:6.00, unit:"unidade · 4 em 4", img:"assets/img/michelangelo.png", tag:"Exclusivo", desc:"Salmão, gorgonzola, lâmina de salmão massaricado e cebola caramelizada."},
 
 /* ── SASHIMI (unid.) ── */
 {cat:"sashimi", name:"Sashimi Salmão", price:3.00, unit:"unidade", img:IMG.sashimi, desc:"Fatias generosas de salmão fresco."},
