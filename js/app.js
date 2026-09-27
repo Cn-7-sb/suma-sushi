@@ -161,48 +161,14 @@ tabsBox.addEventListener("click", e => {
 });
 searchInput.addEventListener("input", e => { query = e.target.value; renderMenu(); });
 
-let menuTouchMoved = false;
-let menuTouchStartX = 0;
-let menuTouchStartY = 0;
-
-grid.addEventListener("touchstart", e => {
-  const t = e.touches[0];
-
-  menuTouchStartX = t.clientX;
-  menuTouchStartY = t.clientY;
-  menuTouchMoved = false;
-}, {passive:true});
-
-grid.addEventListener("touchmove", e => {
-  const t = e.touches[0];
-
-  const dx = Math.abs(t.clientX - menuTouchStartX);
-  const dy = Math.abs(t.clientY - menuTouchStartY);
-
-  if (dx > 8 || dy > 8) {
-    menuTouchMoved = true;
-  }
-}, {passive:true});
-
 grid.addEventListener("click", e => {
-  if (menuTouchMoved) {
-    menuTouchMoved = false;
-    return;
-  }
-
   const add = e.target.closest("[data-add]");
   const inc = e.target.closest("[data-inc]");
   const dec = e.target.closest("[data-dec]");
 
-  if (add) {
-    addToCart(add.dataset.add, 1);
-  } 
-  else if (inc) {
-    addToCart(inc.dataset.inc, 1);
-  } 
-  else if (dec) {
-    addToCart(dec.dataset.dec, -1);
-  }
+  if (add) addToCart(add.dataset.add, 1);
+  else if (inc) addToCart(inc.dataset.inc, 1);
+  else if (dec) addToCart(dec.dataset.dec, -1);
 });
 
 /* ═══ CART ═══ */
