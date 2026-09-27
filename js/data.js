@@ -145,12 +145,12 @@ const MENU = [
 {cat:"poke", name:"Poke Atum", price:35.00, img:"assets/img/poke-atum.png", desc:"Cubos de atum, cream cheese, abacaxi, manga e cebola roxa."},
 
 /* ── YAKISSOBA 500g ── */
-{cat:"yakissoba", name:"Yakissoba de Legumes 500g", price:29.00, desc:"Talharim, molho da casa, brócolis, couve-flor, cenoura, acelga e repolho roxo."},
-{cat:"yakissoba", name:"Yakissoba de Frango 500g", price:32.00, desc:"Frango suculento com legumes salteados."},
-{cat:"yakissoba", name:"Yakissoba de Carne 500g", price:35.00, desc:"Tiras de carne no molho da casa."},
-{cat:"yakissoba", name:"Yakissoba Misto 500g", price:45.00, desc:"Frango e carne, a porção completa."},
-{cat:"yakissoba", name:"Yakissoba de Camarão 500g", price:49.00, desc:"Camarões generosos com legumes."},
-{cat:"yakissoba", name:"Yakissoba de Salmão 500g", price:55.00, desc:"Salmão em cubos no talharim da casa."},
+{cat:"yakissoba", name:"Yakissoba de Legumes 500g", price:29.00, img:"assets/img/yakissoba-de-legumes.png", desc:"Talharim, molho da casa, brócolis, couve-flor, cenoura, acelga e repolho roxo."},
+{cat:"yakissoba", name:"Yakissoba de Frango 500g", price:32.00, img:"assets/img/yakissoba-de-frango.png", desc:"Frango suculento com legumes salteados."},
+{cat:"yakissoba", name:"Yakissoba de Carne 500g", price:35.00, img:"assets/img/yakissoba-de-carne.png", desc:"Tiras de carne no molho da casa."},
+{cat:"yakissoba", name:"Yakissoba Misto 500g", price:45.00, img:"assets/img/yakissoba-misto.png", desc:"Frango e carne, a porção completa."},
+{cat:"yakissoba", name:"Yakissoba de Camarão 500g", price:49.00, img:"assets/img/yakissoba-de-camarao.png", desc:"Camarões generosos com legumes."},
+{cat:"yakissoba", name:"Yakissoba de Salmão 500g", price:55.00, img:"assets/img/yakissoba-de-salmao.png", desc:"Salmão em cubos no talharim da casa."},
 
 /* ── MOLHOS ── */
 {cat:"molhos", name:"Shoyu", price:1.50, img:"assets/img/shoyu.png", desc:"O clássico acompanhamento."},
