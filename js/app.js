@@ -175,13 +175,26 @@ grid.addEventListener("click", e => {
 const drawer = $("#cartDrawer"), overlay = $("#cartOverlay");
 
 function addToCart(name, delta) {
-  const item = MENU.find(m => m.name === name); if (!item) return;
+  console.log("ADD TO CART FOI CHAMADO:", name, delta);
+
+  const item = MENU.find(m => m.name === name);
+  if (!item) return;
+
   let row = cart.find(c => c.name === name);
-  if (!row) { row = {...item, qty:0}; cart.push(row); }
+
+  if (!row) {
+    row = {...item, qty:0};
+    cart.push(row);
+  }
+
   row.qty += delta;
-  if (row.qty <= 0) cart = cart.filter(c => c !== row);
-  else if (delta > 0 && row.qty === delta) toast(`“${name}” adicionado à bandeja`);
-  updateCart(); renderMenu();
+
+  if (row.qty <= 0) {
+    cart = cart.filter(c => c !== row);
+  }
+
+  updateCart();
+  renderMenu();
 }
 
 function cartRows() {
