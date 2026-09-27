@@ -113,7 +113,7 @@ const MENU = [
 {cat:"sashimi", name:"Mix de Sashimis (15)", price:49.00, img:"assets/img/mix-de-sashimis.png", tag:"Degustação", desc:"Salmão massaricado com crosta de gergelim e maracujá · atum com ponzu · salmão com azeite trufado e limão siciliano."},
 
 /* ── ESPECIAIS ── */
-{cat:"especiais", name:"SU MA Tropical", price:6.00, unit:"unidade · 5 em 5", tag:"Assinatura", img:"assets/img/su-ma-tropical.png", desc:"Salmão, cream cheese, folha de arroz, abacaxi e geleia de pimenta."},
+{cat:"especiais", name:"SU MA Tropical", price:6.00, unit:"unidade · 5 em 5", tag:"Assinatura", img:"assets/img/su-ma-sushi.png", desc:"Salmão, cream cheese, folha de arroz, abacaxi e geleia de pimenta."},
 {cat:"especiais", name:"Futomaki Camarão", price:6.00, unit:"unidade · 4 em 4", tag:"Exclusivo", img:"assets/img/futomaki-camarao.png", desc:"Salmão empanado, camarão empanado, cream cheese, tare e limão siciliano."},
 {cat:"especiais", name:"Hot Filadélfia", price:2.00, unit:"unidade · 5 em 5", img:"assets/img/hot-filadelfia.png", desc:"Empanado na panko, cremoso por dentro."},
 {cat:"especiais", name:"Hot Tataki", price:2.50, unit:"unidade · 5 em 5", img:"assets/img/hot-tataki.png", desc:"Salmão tataki em versão quente."},
