@@ -113,13 +113,13 @@ const MENU = [
 {cat:"sashimi", name:"Mix de Sashimis (15)", price:49.00, img:"assets/img/mix-de-sashimis.png", tag:"Degustação", desc:"Salmão massaricado com crosta de gergelim e maracujá · atum com ponzu · salmão com azeite trufado e limão siciliano."},
 
 /* ── ESPECIAIS ── */
-{cat:"especiais", name:"SU MA Tropical", price:6.00, unit:"unidade · 5 em 5", tag:"Assinatura", img:IMG.combos, desc:"Salmão, cream cheese, folha de arroz, abacaxi e geleia de pimenta."},
-{cat:"especiais", name:"Futomaki Camarão", price:6.00, unit:"unidade · 4 em 4", tag:"Exclusivo", desc:"Salmão empanado, camarão empanado, cream cheese, tare e limão siciliano."},
-{cat:"especiais", name:"Hot Filadélfia", price:2.00, unit:"unidade · 5 em 5", desc:"Empanado na panko, cremoso por dentro."},
-{cat:"especiais", name:"Hot Tataki", price:2.50, unit:"unidade · 5 em 5", desc:"Salmão tataki em versão quente."},
-{cat:"especiais", name:"Hot Camarão", price:4.00, unit:"unidade · 5 em 5", desc:"Camarão empanado crocante."},
-{cat:"especiais", name:"Hot Sensação", price:3.00, unit:"unidade · 5 em 5", tag:"Doce", desc:"Morango e chocolate quente."},
-{cat:"especiais", name:"Hot Banana", price:2.00, unit:"unidade · 5 em 5", tag:"Doce", desc:"Banana caramelizada empanada."},
+{cat:"especiais", name:"SU MA Tropical", price:6.00, unit:"unidade · 5 em 5", tag:"Assinatura", img:"assets/img/su-ma-tropical.png", desc:"Salmão, cream cheese, folha de arroz, abacaxi e geleia de pimenta."},
+{cat:"especiais", name:"Futomaki Camarão", price:6.00, unit:"unidade · 4 em 4", tag:"Exclusivo", img:"assets/img/futomaki-camarao.png", desc:"Salmão empanado, camarão empanado, cream cheese, tare e limão siciliano."},
+{cat:"especiais", name:"Hot Filadélfia", price:2.00, unit:"unidade · 5 em 5", img:"assets/img/hot-filadelfia.png", desc:"Empanado na panko, cremoso por dentro."},
+{cat:"especiais", name:"Hot Tataki", price:2.50, unit:"unidade · 5 em 5", img:"assets/img/hot-tataki.png", desc:"Salmão tataki em versão quente."},
+{cat:"especiais", name:"Hot Camarão", price:4.00, unit:"unidade · 5 em 5", img:"assets/img/hot-camarao.png", desc:"Camarão empanado crocante."},
+{cat:"especiais", name:"Hot Sensação", price:3.00, unit:"unidade · 5 em 5", img:"assets/img/hot-sensacao.png", tag:"Doce", desc:"Morango e chocolate quente."},
+{cat:"especiais", name:"Hot Banana", price:2.00, unit:"unidade · 5 em 5", img:"assets/img/hot-banana.png", tag:"Doce", desc:"Banana caramelizada empanada."},
 
 /* ── CARPACCIO ── */
 {cat:"carpaccio", name:"Carpaccio de Salmão (12 un.)", price:49.00, img:IMG.sashimi, desc:"Lâminas finíssimas de salmão com azeite e raspas de limão."},
