@@ -10,7 +10,7 @@ const IMG = {
   uramaki:"assets/img/2_Japanese_Sushi_Rolls_Philadelphia.png"
 };
 
-const WHATSAPP = "5547992736707";
+const WHATSAPP = "5547991551396";
 
 const MENU = [
 /* ── PROMOÇÕES ── */
