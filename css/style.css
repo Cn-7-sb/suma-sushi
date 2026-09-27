@@ -299,14 +299,6 @@ h2 em{font-style:italic;color:var(--gold-hi);font-weight:400}
 .btn-checkout{width:100%;justify-content:center;margin-top:16px}
 .cart-hint{display:block;text-align:center;margin-top:12px;color:rgba(242,234,217,.35);font-size:11px}
 
-.cart-empty .btn{
-  width:auto;
-  padding:10px 20px;
-  font-size:11px;
-  min-width:0;
-  border-radius:99px;
-}
-
 /* ═════════════════════ TOAST ═════════════════════ */
 
 .toast{
@@ -460,4 +452,27 @@ h2 em{font-style:italic;color:var(--gold-hi);font-weight:400}
   body.menu-open{
     overflow:hidden !important;
   }
+}
+
+/* BOTÃO VER CARDÁPIO — CARRINHO VAZIO */
+.cart-empty .btn,
+.cart-empty a.btn{
+  width:auto !important;
+  min-width:0 !important;
+  max-width:max-content !important;
+  height:auto !important;
+
+  padding:9px 18px !important;
+  margin:0 auto !important;
+
+  font-size:10px !important;
+  line-height:1 !important;
+  letter-spacing:.14em !important;
+  white-space:nowrap !important;
+
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+
+  border-radius:999px !important;
 }
