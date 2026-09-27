@@ -161,11 +161,48 @@ tabsBox.addEventListener("click", e => {
 });
 searchInput.addEventListener("input", e => { query = e.target.value; renderMenu(); });
 
+/* ═══ CLIQUE X ARRASTO NO CELULAR ═══ */
+
+let touchStartX = 0;
+let touchStartY = 0;
+let isDragging = false;
+
+grid.addEventListener("touchstart", e => {
+  const touch = e.touches[0];
+
+  touchStartX = touch.clientX;
+  touchStartY = touch.clientY;
+  isDragging = false;
+}, { passive: true });
+
+grid.addEventListener("touchmove", e => {
+  const touch = e.touches[0];
+
+  const dx = Math.abs(touch.clientX - touchStartX);
+  const dy = Math.abs(touch.clientY - touchStartY);
+
+  if (dx > 10 || dy > 10) {
+    isDragging = true;
+  }
+}, { passive: true });
+
 grid.addEventListener("click", e => {
-  const add = e.target.closest("[data-add]"), inc = e.target.closest("[data-inc]"), dec = e.target.closest("[data-dec]");
-  if (add) addToCart(add.dataset.add, 1);
-  else if (inc) addToCart(inc.dataset.inc, 1);
-  else if (dec) addToCart(dec.dataset.dec, -1);
+  if (isDragging) {
+    isDragging = false;
+    return;
+  }
+
+  const add = e.target.closest("[data-add]");
+  const inc = e.target.closest("[data-inc]");
+  const dec = e.target.closest("[data-dec]");
+
+  if (add) {
+    addToCart(add.dataset.add, 1);
+  } else if (inc) {
+    addToCart(inc.dataset.inc, 1);
+  } else if (dec) {
+    addToCart(dec.dataset.dec, -1);
+  }
 });
 
 /* ═══ CART ═══ */
