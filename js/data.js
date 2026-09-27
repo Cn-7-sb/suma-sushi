@@ -38,7 +38,7 @@ const MENU = [
 {cat:"combos", name:"Combo MA", price:129.00, img:"assets/img/combo-ma.png", desc:"5 sashimi salmão · 5 sashimi gorgonzola · uramaki filadélfia especial · joe lemon · niguiri brie com raspas de limão · 10 hot camarão."},
 {cat:"combos", name:"Combo 30 peças Especial", price:109.00, img:"assets/img/combo-30-pecas-especial.png", desc:"Uramaki filadélfia especial · joe · niguiri alho poró · sashimi salmão e com gorgonzola."},
 {cat:"combos", name:"Combo Su Ma Yoshi", price:99.00, tag:"Best-seller", img:"assets/img/combo-su-ma-yoshi.png", desc:"10 sashimi salmão · 10 uramaki filadélfia · 10 hossomaki salmão · 10 hot filadélfia."},
-{cat:"combos", name:"Combo 60 peças + Temaki Hot Família", price:139.00, img:"assets/img/combo-60-pecas-temaki-hot-familia.png", desc:"60 peças variadas + 1 temaki hot. Feito para a família toda."},
+{cat:"combos", name:"Combo 60 peças + Temaki Hot Família", price:139.00, img:"assets/img/combo-60-pecas-temaki-hot-famillia.png", desc:"60 peças variadas + 1 temaki hot. Feito para a família toda."},
 {cat:"combos", name:"Combo Su Ma Satori", price:149.00, img:"assets/img/combo-su-ma-satori.png", desc:"10 uramaki filadélfia · 10 hossomaki salmão · 10 sashimis · 10 hot filadélfia · joe salmão · joe gorgonzola · Su Ma Tropical."},
 {cat:"combos", name:"Combo do Chef", price:110.00, tag:"Assinatura", img:"assets/img/combo-do-chef.png", desc:"Sashimis com azeite trufado e limão siciliano · niguiri salmão · uramaki especial com brie e geleia de morango · joe gorgonzola."},
 {cat:"combos", name:"Combo SU", price:139.00, img:"assets/img/combo-su.png", desc:"Hossomaki salmão · hot filadélfia · uramaki filadélfia · joe salmão · miguelangelo · niguiri massaricado · niguiri skin · joe kappamaki."},
