@@ -104,13 +104,13 @@ const MENU = [
 {cat:"uramaki", name:"Michelângelo", price:6.00, unit:"unidade · 4 em 4", img:"assets/img/michelangelo.png", tag:"Exclusivo", desc:"Salmão, gorgonzola, lâmina de salmão massaricado e cebola caramelizada."},
 
 /* ── SASHIMI (unid.) ── */
-{cat:"sashimi", name:"Sashimi Salmão", price:3.00, unit:"unidade", img:IMG.sashimi, desc:"Fatias generosas de salmão fresco."},
-{cat:"sashimi", name:"Sashimi Atum", price:3.00, unit:"unidade", img:IMG.sashimi, desc:"Filés de atum selecionados."},
-{cat:"sashimi", name:"Sashimi Salmão Massaricado", price:4.00, unit:"unidade", desc:"Salmão levemente selado."},
-{cat:"sashimi", name:"Sashimi Salmão ao Maracujá", price:4.00, unit:"unidade", tag:"Autoral", desc:"Com molho de maracujá da casa."},
-{cat:"sashimi", name:"Sashimi Salmão c/ Geleia de Pimenta", price:4.00, unit:"unidade", tag:"Autoral", desc:"Doce e picante em perfeita medida."},
-{cat:"sashimi", name:"Sashimi Salmão Gorgonzola", price:5.00, unit:"unidade", tag:"Autoral", desc:"Com toque de gorgonzola cremoso."},
-{cat:"sashimi", name:"Mix de Sashimis (15)", price:49.00, tag:"Degustação", img:IMG.sashimi, desc:"Salmão massaricado com crosta de gergelim e maracujá · atum com ponzu · salmão com azeite trufado e limão siciliano."},
+{cat:"sashimi", name:"Sashimi Salmão", price:3.00, unit:"unidade", img:"assets/img/sashimi-salmao.png", desc:"Fatias generosas de salmão fresco."},
+{cat:"sashimi", name:"Sashimi Atum", price:3.00, unit:"unidade", img:"assets/img/sashimi-atum.png", desc:"Filés de atum selecionados."},
+{cat:"sashimi", name:"Sashimi Salmão Massaricado", price:4.00, unit:"unidade", img:"assets/img/sashimi-salmao-massaricado.png", desc:"Salmão levemente selado."},
+{cat:"sashimi", name:"Sashimi Salmão ao Maracujá", price:4.00, unit:"unidade", img:"assets/img/sashimi-salmao-ao-maracuja.png", tag:"Autoral", desc:"Com molho de maracujá da casa."},
+{cat:"sashimi", name:"Sashimi Salmão c/ Geleia de Pimenta", price:4.00, unit:"unidade", img:"assets/img/sashimi-salmao-com-geleia-de-pimenta.png", tag:"Autoral", desc:"Doce e picante em perfeita medida."},
+{cat:"sashimi", name:"Sashimi Salmão Gorgonzola", price:5.00, unit:"unidade", img:"assets/img/sashimi-salmao-gorgonzola.png", tag:"Autoral", desc:"Com toque de gorgonzola cremoso."},
+{cat:"sashimi", name:"Mix de Sashimis (15)", price:49.00, img:"assets/img/mix-de-sashimis.png", tag:"Degustação", desc:"Salmão massaricado com crosta de gergelim e maracujá · atum com ponzu · salmão com azeite trufado e limão siciliano."},
 
 /* ── ESPECIAIS ── */
 {cat:"especiais", name:"SU MA Tropical", price:6.00, unit:"unidade · 5 em 5", tag:"Assinatura", img:IMG.combos, desc:"Salmão, cream cheese, folha de arroz, abacaxi e geleia de pimenta."},
