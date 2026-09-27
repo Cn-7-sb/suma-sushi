@@ -14,7 +14,7 @@ const WHATSAPP = "5547991551396";
 
 const MENU = [
 /* ── PROMOÇÕES ── */
-{cat:"promos", name:"Combo 50 Peças", price:59.99, tag:"Promoção", img:"assets/img/combo-50pecas.png", desc:"10 hot filadélfia · 10 hossomaki salmão · 10 hossomaki pepino · 5 uramaki especial · 5 uramaki salad · 5 niguiri skin · 5 joe kappamaki. Válido no Pix ou dinheiro."},
+{cat:"promos", name:"Combo 50 Peças", price:59.99, tag:"Promoção", img:"assets/img/combo-50-pecas.png", desc:"10 hot filadélfia · 10 hossomaki salmão · 10 hossomaki pepino · 5 uramaki especial · 5 uramaki salad · 5 niguiri skin · 5 joe kappamaki. Válido no Pix ou dinheiro."},
 {cat:"promos", name:"Sushi Empanado 20 peças", price:29.90, tag:"Quarta & Sábado", img:"assets/img/sushi-empanado-20peças.png", desc:"Sushi empanado crocante — uma delícia da casa."},
 {cat:"promos", name:"Promoção 3 Temakis Hot", price:59.90, tag:"Quarta-feira", img:"assets/img/promoção-3-temakis-hot.png", desc:"Três temakis quentes na medida certa para dividir (ou não)."},
 {cat:"promos", name:"50 peças de R$149 por R$129", price:129.00, tag:"Sextou!", img:"assets/img/50-peças.png", desc:"Serve 2: uramaki filadélfia, hossomaki, sashimi, hot filadélfia, joe salmão, joe gorgonzola e Su Ma Tropical."},
