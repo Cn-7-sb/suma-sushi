@@ -457,22 +457,22 @@ h2 em{font-style:italic;color:var(--gold-hi);font-weight:400}
 /* BOTÃO VER CARDÁPIO — CARRINHO VAZIO */
 .cart-empty .btn,
 .cart-empty a.btn{
-  width:auto !important;
-  min-width:0 !important;
-  max-width:max-content !important;
-  height:auto !important;
+  width:180px !important;
+  min-width:180px !important;
+  max-width:180px !important;
+  height:46px !important;
 
-  padding:9px 18px !important;
+  padding:0 !important;
   margin:0 auto !important;
 
-  font-size:10px !important;
-  line-height:1 !important;
-  letter-spacing:.14em !important;
-  white-space:nowrap !important;
-
-  display:inline-flex !important;
+  display:flex !important;
   align-items:center !important;
   justify-content:center !important;
+
+  font-size:11px !important;
+  line-height:1 !important;
+  letter-spacing:.12em !important;
+  white-space:nowrap !important;
 
   border-radius:999px !important;
 }
